@@ -71,7 +71,53 @@ main hr{
 .SecondSec {
       max-width: 80vw;
     margin: auto;
+    height: 80vh;
+}
+.SecondSec h2{
+    font-size: 2rem ;
 }
 .SecondSec .text_grey{
     color: gray;
+}
+.SecondSec .box{
+    background: white;
+    width:75vw ;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.SecondSec .vertical{
+    background-color: gray;
+    height: 93px;
+    width: 1.2px;
+    margin: 0 120px;
+}
+.img_top{
+    width: 30px;
+    position: relative;
+  top: -34px;
+  left: -12px;
+}
+.vertical_title{
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+
+.vertical_desc{
+   position: relative;
+   top: 85px;
+   width: 150px;
+   font-size: 10px;
+   color: gray;
+}
+footer{
+    background-color:#2e2e5f;
+    height: 233px;
+    
+}
+.footer{
+     display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
 }
