@@ -121,3 +121,37 @@ footer{
     justify-content: space-around;
     padding: 40px 0;
 }
+.footer_frist p{
+    width:300px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(171, 161, 161);
+    font-size: 14px;
+}
+.footer ul li a:hover{
+    color: white;
+    font-size: 17px;
+}
+.footer p{
+     color: rgb(171, 161, 161);
+    font-size: 14px;
+}
+.condition{
+    background-color:#5151ba;
+    color: white;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+   margin-top: -15px;
+}
+.buttons button{
+    background-color: #3b3bad;
+    color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 6px;
+}
